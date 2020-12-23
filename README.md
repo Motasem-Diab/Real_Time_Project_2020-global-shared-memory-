@@ -2,7 +2,7 @@
 
 compile server.c : $ gcc server.c -o server -lpthread
 run server by : ./server
-compile client.c : $ gcc client.c -o client
+compile client.c : $ gcc client.c -o client -lpthread
 run client : ./client
 
 
