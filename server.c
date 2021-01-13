@@ -6,22 +6,12 @@ Notes:
         one for memory table (so we can make any number of memories), 
         another for members (so we can make any number of machines inside each table)
 
-
-TRADE-OFF questions:
-Does the server has a copy of memory
-Does the server send a lock request to all other  machines
-
-Assuptions:
+Assumptions:
     the client sends the memory # want to make
     any message will be sent as "port:memId:request type"
 
 */
 
-//must handel if the client didn't create the memory
-//inform client about changes in memroy
-//now the client can lock,unlock,read,copy the memory even if not a member in it Done
-// the client can be added to same memory many times    Done
-//print error in RED    Done
 
 #include "utils.c"
 
