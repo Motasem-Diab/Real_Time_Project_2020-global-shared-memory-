@@ -7,3 +7,5 @@ run client : ./client
 
 
 note: run the server first
+
+note: we run the clinet and server on the same machine, so we used PORT number not IP to make the communication
